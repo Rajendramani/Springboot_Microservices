@@ -3,6 +3,14 @@ package io.javamani.movieinfoservice.model;
 public class Movie {
 	private String movieId;
 	private String name;
+	public String getDesc() {
+		return desc;
+	}
+
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+
 	private String desc;
 
 	public String getMovieId() {
